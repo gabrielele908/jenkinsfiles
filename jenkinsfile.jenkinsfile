@@ -3,27 +3,27 @@ pipeline{
    stages{
    stage('Build')
      {
-       step{
+       steps{
        echo "Building the project"
        }
      }
 
     stage('Test')
      {
-       step{
+       steps{
        echo "Testing the project..."
        }
      }
      stage('Deploy')
      {
-       step{
+       steps{
        echo "Deploying the project"
        }
      }
 
      stage('Realse')
      {
-       step{
+       steps{
        echo "Realseing the project"
        }
      }  
